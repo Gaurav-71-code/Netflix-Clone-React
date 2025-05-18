@@ -1,61 +1,12 @@
-# Netflix Clone
+# React + Vite
 
-A Netflix clone built with React and Vite, featuring a modern UI and responsive design.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Responsive design that works on all devices
-- Modern UI with smooth animations
-- Netflix-like hero section with background blur effect
-- Trending shows section with horizontal scroll
-- Subscription plans section
-- FAQ section with expandable details
-- Footer with links and language selector
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Getting Started
+## Expanding the ESLint configuration
 
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-4. Open [http://localhost:5173](http://localhost:5173) in your browser
-
-## Project Structure
-
-```
-netflix-react/
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Trending.jsx
-│   │   ├── Plans.jsx
-│   │   ├── Reasons.jsx
-│   │   ├── FAQ.jsx
-│   │   └── Footer.jsx
-│   ├── App.jsx
-│   ├── App.css
-│   ├── main.jsx
-│   └── index.css
-├── public/
-│   └── assets/
-├── index.html
-├── package.json
-└── vite.config.js
-```
-
-## Technologies Used
-
-- React
-- Vite
-- CSS3
-- HTML5
-
-## License
-
-MIT 
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
